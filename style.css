@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.password_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.password_form label {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.password_form input {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.password_form button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid black;
+  box-shadow: none;
+}
+
+.password_form button:last-child {
+  margin-top: 1rem;
+}
